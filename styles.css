@@ -1,0 +1,62 @@
+body {
+  background-color: #ffe6e6;
+  font-family: Arial, sans-serif; /* Font chữ chung */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Chiều cao toàn màn hình */
+}
+
+.container {
+  position: relative;
+  width: 400px; /* Độ rộng khung đăng nhập */
+}
+
+.login-box {
+  background-color: #ffcccc; /* Màu nền cho phần đăng nhập */
+  padding: 20px;
+  border-radius: 5px; /* Bo góc */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Đổ bóng */
+  text-align: center;
+}
+
+.logo {
+  max-width: 100px;
+  margin: 0 auto 20px; /* Canh giữa và cách dưới */
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: calc(100% - 16px); /* Trừ đi padding */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  width: calc(100% - 16px); /* Trừ đi padding */
+  padding: 10px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
